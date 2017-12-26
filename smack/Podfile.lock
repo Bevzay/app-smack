@@ -1,0 +1,50 @@
+PODS:
+  - Alamofire (4.6.0)
+  - Socket.IO-Client-Swift (13.1.0):
+    - Starscream (~> 3.0.2)
+  - Starscream (3.0.3)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (from `git@github.com:Alamofire/Alamofire.git`, branch `master`)
+  - Socket.IO-Client-Swift (from `git@github.com:socketio/socket.io-client-swift.git`, branch `master`)
+  - Starscream (from `git@github.com:daltoniam/Starscream.git`, branch `master`)
+  - SwiftyJSON (from `git@github.com:SwiftyJSON/SwiftyJSON.git`, branch `master`)
+
+EXTERNAL SOURCES:
+  Alamofire:
+    :branch: master
+    :git: git@github.com:Alamofire/Alamofire.git
+  Socket.IO-Client-Swift:
+    :branch: master
+    :git: git@github.com:socketio/socket.io-client-swift.git
+  Starscream:
+    :branch: master
+    :git: git@github.com:daltoniam/Starscream.git
+  SwiftyJSON:
+    :branch: master
+    :git: git@github.com:SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  Alamofire:
+    :commit: 098a42007eda5d417a41db44fac14abffa55b234
+    :git: git@github.com:Alamofire/Alamofire.git
+  Socket.IO-Client-Swift:
+    :commit: 1025c80ef56453415cc57f0e9e85e091321a286e
+    :git: git@github.com:socketio/socket.io-client-swift.git
+  Starscream:
+    :commit: 6cb1c474e09b0a3aa60bcdc7553b570336d6a61a
+    :git: git@github.com:daltoniam/Starscream.git
+  SwiftyJSON:
+    :commit: fb67763f27990ba76a42bf412f848af5aef5e5ea
+    :git: git@github.com:SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  Alamofire: 0dda98a0ed7eec4bdcd5fe3cdd35fcd2b3022825
+  Socket.IO-Client-Swift: c24ff13b90fa99f3489299c9faaaa829ef597130
+  Starscream: 3c511ddb7571b3300a847cd0266c8425e145f969
+  SwiftyJSON: 8cd73b154950360d79292a8dc8c0d0a85d258930
+
+PODFILE CHECKSUM: a185e9f75ea2cb70314d13a648eefe653377406c
+
+COCOAPODS: 1.2.0

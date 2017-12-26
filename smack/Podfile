@@ -1,0 +1,15 @@
+project 'smack.xcodeproj'
+
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'smack' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for smack
+  pod 'Alamofire', :git => 'git@github.com:Alamofire/Alamofire.git', :branch => 'master'
+  pod 'SwiftyJSON', :git => 'git@github.com:SwiftyJSON/SwiftyJSON.git', :branch => 'master'
+  pod 'Socket.IO-Client-Swift', :git => 'git@github.com:socketio/socket.io-client-swift.git', :branch => 'master'
+  pod 'Starscream', :git => 'git@github.com:daltoniam/Starscream.git', :branch => 'master'
+end
